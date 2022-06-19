@@ -81,4 +81,50 @@ header#about #responsive-img img {
     width: 1000px;
 }
 
+/* Styling Main Content */
+main {
+    text-align: center;
+    margin-top: -10px;
+}
+
+main .intro {
+    background-color: #141c3a;
+    color: #fff;
+}
+
+main .intro h2 {
+    padding: 130px 0 40px 0;
+    font-size: 30px;
+}
+
+main .intro p {
+    padding: 0px 300px 400px 300px;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+main #skills {
+    background-color: #fff;
+    margin: -300px auto -200px auto;
+    width: 1000px;
+    padding: 50px 0;
+    position: relative;
+    z-index: 10;
+    
+}
+
+main #skills h2 {
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+main #skills p {
+    font-size: 22px;
+    padding: 0 0 30px 0;
+}
+
+#skills-base {
+    padding: 200px 0;
+    background-color: #141c3a;
+}
 
