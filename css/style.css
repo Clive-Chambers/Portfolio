@@ -128,3 +128,95 @@ main #skills p {
     background-color: #141c3a;
 }
 
+/* Styling Work Section */
+
+section#work {
+    position: relative;
+    padding: 150px;
+}
+
+section#work h2 {
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+section#work p {
+    font-size: 22px;
+    padding-bottom: 60px;
+    font-weight: 200;
+}
+
+section#work .inline-work {
+    display: inline-flex;
+}
+
+section#work .inline-work img {
+    width: 300px;
+    margin: 0 10px 150px 0;
+
+}
+
+/* Styling collaborate CTA */
+
+section #collaborate {
+    margin-bottom: 200px;
+}
+
+section #collaborate ul li {
+    list-style-type: none;
+}
+
+section #collaborate ul li#contact-btn a{
+    border: 1px solid #141c3a;
+    border-radius: 36px;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+section #collaborate ul li#contact-btn a:hover {
+    border: 1px solid #141c3a;
+    background-color: #141c3a;
+    color: #fff;
+}
+
+/* Styling Start A Project CTA */
+
+section #getInTouch {
+    background-color: #7510f7;
+    padding: 50px 0;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: -280px;
+    z-index: 10;
+
+}
+
+section #getInTouch ul li {
+    list-style-type: none;
+}
+
+section #getInTouch ul li#contact-btn a {
+    border: 1px solid #ffffff;
+    border-radius: 36px;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+section #getInTouch ul li#contact-btn a:hover {
+    border: 1px solid #141c3a;
+    background-color: #141c3a;
+    color: #fff;
+}
+
+
+
+/* Styling Footer */
+
+footer {
+    background-color: #141c3a;
+    padding: 500px 0 20px 0;
+    color: #fff;
+}
