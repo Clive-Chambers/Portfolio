@@ -7,6 +7,28 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* css variables */
+:root {
+    --background-color: #fff;
+    --text-color: #333;
+    --nav-color: #141c3a;
+}
+
+.dark-mode {
+    --background-color: rgb(15, 15, 15);
+    --text-color: #ffffff;
+    --nav-color: #ffffff;
+
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+h1, h2, p {
+    color: var(--text-color);
+}
+
 /* Main Navigation */
 
 nav {
@@ -30,7 +52,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     padding: 10px 0px;
-    color: #141c3a;
+    color: var(--text-color);
 
 
 }
@@ -42,7 +64,7 @@ nav ul li a:hover {
 }
 
 nav ul li#contact-btn a{
-    border: 1px solid #141c3a;
+    border: 1px solid var(--text-color);
     border-radius: 36px;
     padding: 15px 20px;
     
@@ -54,6 +76,35 @@ nav ul li#contact-btn a:hover {
     color: #fff;
     
 }
+
+/* Styling light/dark mode btn */
+
+.theme-btn {
+    top: 5%;
+    left: 3%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #354a96;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, .3);
+    transition: all .1s ease-in-out  ;
+}
+
+.theme-btn:active {
+    transform: translateY(-3px);
+}
+
+.theme-btn i {
+    font-size: 1.4rem;
+    color: #fff;
+    pointer-events: none;
+}
+
 
 /* Styling Header */
 
@@ -92,22 +143,24 @@ main {
 
 main .intro {
     background-color: #141c3a;
-    color: #fff;
+    color: #fff!important;
 }
 
 main .intro h2 {
     padding: 130px 0 40px 0;
     font-size: 30px;
+    color: #fff!important;
 }
 
 main .intro p {
     padding: 0px 300px 400px 300px;
     font-size: 22px;
     font-weight: 200;
+    color: #fff!important;
 }
 
 main #skills {
-    background-color: #fff;
+    background-color: var(--background-color);
     margin: -300px auto -200px auto;
     width: 1000px;
     padding: 50px 0;
@@ -240,7 +293,8 @@ section #collaborate ul li {
 }
 
 section #collaborate ul li#contact-btn a{
-    border: 1px solid #141c3a;
+    border: 1px solid var(--nav-color);
+    color: var(--nav-color);
     border-radius: 36px;
     padding: 15px 30px;
     font-size: 18px;
@@ -258,11 +312,19 @@ section #collaborate ul li#contact-btn a:hover {
 section #getInTouch {
     background-color: #7510f7;
     padding: 50px 0;
-    color: #fff;
+    color: #fff!important;
     border-radius: 20px;
     margin-bottom: -280px;
     z-index: 10;
 
+}
+
+section #getInTouch h2 {
+    color: #fff!important;
+}
+
+section #getInTouch p {
+    color: #fff!important;
 }
 
 section #getInTouch ul li {
@@ -326,6 +388,10 @@ section.contact {
     flex-direction: column;
     margin: -400px 0 0 0;
 
+}
+
+section.intro-contact h2, section.intro-contact p {
+    color:#fff;
 }
 
 .contactForm {
@@ -406,6 +472,9 @@ section.contact {
     }
 }
 
+footer p {
+    color: #fff;
+}
 
 
 
