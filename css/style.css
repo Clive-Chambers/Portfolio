@@ -524,6 +524,16 @@ footer p {
         padding: 0px 50px 400px 50px;
     }
 
+    /*Contact Form */
+
+    section.contact {
+        margin-bottom: -560px;
+    }
+
+    .contactForm {
+        margin-top: -560px;
+    }
+
     /* Main Skillset */
 
     main #skills {
@@ -611,6 +621,21 @@ footer p {
         padding: 0px 30px 400px 30px;
     }
 
+    main .intro-contact p {
+        padding: 0px 220px 50px 220px;
+    }
+
+    /*Contact Form */
+
+    section.contact {
+        margin-top: -500px;
+        margin-bottom: -50px;
+    }
+
+    .contactForm {
+        margin-top: 60px;
+    }
+
     /* Main Skillset */
 
     main #skills {
@@ -680,6 +705,13 @@ footer p {
         width: 80%;
     }
 
+    /* Contact Form */
+
+    section.contact {
+        margin-top: -400px;
+
+    }
+
     /* Main Intro */
 
     main .intro h2 {
@@ -688,6 +720,14 @@ footer p {
 
     main .intro p {
         padding: 0px 30px 400px 30px;
+    }
+
+    main .intro-contact h2 {
+        padding: 100px 30px 40px 30px;
+    }
+
+    main .intro-contact p {
+        padding: 0px 30px 50px 30px;
     }
 
     /* Main Skillset */
