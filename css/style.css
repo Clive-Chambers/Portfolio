@@ -34,6 +34,10 @@ h1, h2, p {
 nav {
     width: 100%;
     text-align: right;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 11;
 
 }
 
@@ -93,6 +97,7 @@ nav ul li#contact-btn a:hover {
     align-items: center;
     box-shadow: 0 3px 15px rgba(0, 0, 0, .3);
     transition: all .1s ease-in-out  ;
+    z-index: 12;
 }
 
 .theme-btn:active {
@@ -110,6 +115,10 @@ nav ul li#contact-btn a:hover {
 
 header {
     text-align: center;
+}
+
+header#about {
+    margin-top: 190px;
 }
 
 header#about h1{
