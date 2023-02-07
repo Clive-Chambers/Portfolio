@@ -373,6 +373,20 @@ footer {
     color: #fff;
 }
 
+footer .github {
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+footer .email {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .email:hover {
+    color: #ffffff98;
+}
+
 
 /* Styling Contact Page */
 
