@@ -37,7 +37,7 @@ nav {
   text-align: right;
   position: fixed;
   top: 0;
-  background-color: #fff;
+  background-color: var(--background-color);
   z-index: 11;
 }
 
